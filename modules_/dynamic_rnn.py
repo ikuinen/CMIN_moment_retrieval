@@ -35,7 +35,7 @@ class DynamicGRU(nn.Module):
         else:
             out = unpacked_x.index_select(1, original_idx)
             if out.shape[0] < max_num_frames:
-                out = F.pad(out, [0, max_num_frames - out.shape[1], 0, 0])
+                out = F.pad(out, [0, 0, 0, 0, 0, max_num_frames - out.shape[0]])
 
         # state = state.transpose(0, 1).contiguous().view(out.size(0), -1)
         return out
