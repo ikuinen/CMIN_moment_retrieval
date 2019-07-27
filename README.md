@@ -2,7 +2,7 @@
 
 **The paper is available [here](https://arxiv.org/abs/1906.02497).**
 
-**The pretrained word vectors can be download [here](https://nlp.stanford.edu/projects/glove/)**
+**The pretrained word vectors can be download [here](https://nlp.stanford.edu/projects/glove/).**
 
 **The original ActivityNet dataset can be download [here](http://activity-net.org/download.html).**
 + Train:
