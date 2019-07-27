@@ -2,9 +2,9 @@
 
 **The paper is available [here](https://arxiv.org/abs/1906.02497).**
 
-**The pretrained word vectors can be download [here](https://nlp.stanford.edu/projects/glove/).**
+**The pretrained word vectors can be downloaded [here](https://nlp.stanford.edu/projects/glove/).**
 
-**The original ActivityNet dataset can be download [here](http://activity-net.org/download.html).**
+**The original ActivityNet dataset can be downloaded [here](http://activity-net.org/download.html).**
 + Train:
 ```
 python main.py
@@ -43,7 +43,7 @@ data/activity/test_data_gcn.json
 models_activity
 ```
 
-**The original TACoS dataset can be download [here](http://www.coli.uni-saarland.de/projects/smile/page.php?id=tacos).**
+**The original TACoS dataset can be downloaded [here](http://www.coli.uni-saarland.de/projects/smile/page.php?id=tacos).**
 + The features are extracted through pre-trained C3D networks.
 + Train:
 ```
