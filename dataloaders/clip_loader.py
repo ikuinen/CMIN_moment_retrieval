@@ -63,7 +63,7 @@ class ClipDataset1(ActivityNetGCN):
         # label recomputing
         # print(index, label)
         label[0] = min(np.where(index >= label[0])[0])
-        if label[1] == video.shape[0] - 1:
+        if label[1] == ori_video_len - 1:
             label[1] = self.max_num_frames - 1
         else:
             label[1] = max(np.where(index <= label[1])[0])
@@ -164,7 +164,7 @@ class ClipDataset2(TACOSGCN):
         # label recomputing
         # print(index, label)
         label[0] = min(np.where(index >= label[0])[0])
-        if label[1] == video.shape[0] - 1:
+        if label[1] == ori_video_len - 1:
             label[1] = self.max_num_frames - 1
         else:
             label[1] = max(np.where(index <= label[1])[0])
